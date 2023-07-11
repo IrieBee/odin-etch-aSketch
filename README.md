@@ -1,1 +1,1 @@
-# odin-etch-aSketch
+Odin project Etch a Sketch using html, css and js.
