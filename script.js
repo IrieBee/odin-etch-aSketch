@@ -2,16 +2,16 @@ const section = document.querySelector('section');
 
 const container = document.createElement('div');
 container.setAttribute('id', 'grid');
-container.style.height = '500px';
+container.style.height = '700px';
 container.style.aspectRatio = 1 / 1;
 section.appendChild(container);
 
-const gridNumber = 10;
+const gridNumber = 50;
 // const gridHeight = document.getElementById('grid').style.height;
 // console.log(gridHeight);
 for (i = 0; i < gridNumber **2; i++) {
         const row = document.createElement('div');
-        row.style.border = 'thin dotted black';
+        row.style.border = 'thin dotted hsl(210, 5%, 85%)';
         row.style.height = parseInt(container.style.height) / gridNumber + 'px';
         row.style.aspectRatio = 1 / 1;
         console.log(row.style.height);
