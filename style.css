@@ -12,3 +12,6 @@
     background-color: hsl(0, 50%, 95%);
 }
 
+.row {
+    border-style: thin dotted hsl(210, 5%, 85%);
+}
