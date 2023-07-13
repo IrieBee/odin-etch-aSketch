@@ -7,12 +7,13 @@ container.style.aspectRatio = 1 / 1;
 section.appendChild(container);
 
 const gridNumber = 50;
-// const gridHeight = document.getElementById('grid').style.height;
+
+const gridHeight = parseInt(container.style.height) / gridNumber + 'px';
 // console.log(gridHeight);
 for (i = 0; i < gridNumber **2; i++) {
         const row = document.createElement('div');
         row.style.border = 'thin dotted hsl(210, 5%, 85%)';
-        row.style.height = parseInt(container.style.height) / gridNumber + 'px';
+        row.style.height = gridHeight;
         row.style.aspectRatio = 1 / 1;
         console.log(row.style.height);
         row.setAttribute('id', 'row');
