@@ -22,7 +22,10 @@ section {
 }
 
 .row {
-    border-style: thin dotted hsl(210, 5%, 85%);
+    border-style: dotted;
+    border-color: hsl(210, 5%, 85%);
+    border-width: 1px;
+    aspect-ratio: 1 / 1;
 }
 
 .button {
