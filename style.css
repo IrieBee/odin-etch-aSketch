@@ -18,7 +18,7 @@ section {
     display: flex;
     flex-wrap: wrap;
     background-color: hsl(0, 50%, 95%);
-    /* border: thick double hsl(280, 10%, 25%); */
+    aspect-ratio: 1 / 1;
 }
 
 .row {
