@@ -2,11 +2,16 @@ const section = document.querySelector('section');
 
 const container = document.createElement('div');
 container.setAttribute('id', 'grid');
-container.style.height = '300px';
+container.style.height = '600px';
 container.style.aspectRatio = 1 / 1;
 section.appendChild(container);
 
-const gridNumber = 16;
+// Add prompt from user
+const gridNumber = 60;
+// const gridNumber = document.querySelector(.button);
+// gridNumber = addEventListener('click', () => {
+//     alert()
+// })
 
 const gridHeight = parseInt(container.style.height) / gridNumber + 'px';
  console.log(gridHeight);

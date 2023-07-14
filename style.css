@@ -7,11 +7,16 @@
 #grid {
     display: flex;
     flex-wrap: wrap;
-    /* width: 160px;
-    height: 160px; */
     background-color: hsl(0, 50%, 95%);
+    /* border: thick double hsl(280, 10%, 25%); */
 }
 
 .row {
     border-style: thin dotted hsl(210, 5%, 85%);
+}
+
+.button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border-color: hsl(280, 10%, 25%);
 }
