@@ -15,7 +15,7 @@ const gridNumber = 20;
 
 // Create grid of small squares
 const gridHeight = parseInt(container.style.height) / gridNumber + 'px';
-let row = undefined;
+let row;
 for (let i = 0; i < gridNumber **2; i++) {
     row = document.createElement('div');
     row.style.height = gridHeight;
