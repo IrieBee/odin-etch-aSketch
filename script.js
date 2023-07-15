@@ -7,11 +7,8 @@ section.appendChild(container);
 
 // Add prompt from user
 const gridNumber = 20;
-// let gridNumber;
-// document.querySelector('form').onsubmit = () => {
-//     gridNumber = document.querySelector('#Number').value;
-//     console.log(gridNumber);
-// }
+// Prompt user for number of grids
+let promptNumber = prompt("Number of grids per side (max 100): ");
 
 // Create grid of small squares
 const gridHeight = parseInt(container.style.height) / gridNumber + 'px';
