@@ -6,9 +6,11 @@ container.style.height = '500px';
 section.appendChild(container);
 
 // Add prompt from user
-const gridNumber = 20;
+//const gridNumber = 20;
 // Prompt user for number of grids
 let promptNumber = prompt("Number of grids per side (max 100): ");
+const gridNumber = Math.round(promptNumber);
+
 
 // Create grid of small squares
 const gridHeight = parseInt(container.style.height) / gridNumber + 'px';
