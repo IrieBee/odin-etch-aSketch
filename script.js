@@ -8,12 +8,19 @@ section.appendChild(container);
 // Add prompt from user
 //const gridNumber = 20;
 // Prompt user for number of grids
-const promptNumber = prompt("Number of squares per side (max 100): ");
-const gridNumber = Math.round(promptNumber);
+let promptNumber = 16;
+do {
+    promptNumber = parseInt(prompt("Number of squares per side (1 - 100): "), 10);
+    console.log(typeof promptNumber);
+}
+    while (promptNumber < 1 || promptNumber >= 100 || isNaN(promptNumber));
+  
+
+const gridNumber = promptNumber;
 
 
 // Create grid of small squares
-const gridHeight = parseInt(container.style.height) / gridNumber + 'px';
+const gridHeight = parseInt(container.style.height, 10) / gridNumber + 'px';
 let row;
 for (let i = 0; i < gridNumber **2; i++) {
     row = document.createElement('div');
