@@ -8,7 +8,7 @@ section.appendChild(container);
 // Add prompt from user
 //const gridNumber = 20;
 // Prompt user for number of grids
-let promptNumber = prompt("Number of grids per side (max 100): ");
+const promptNumber = prompt("Number of squares per side (max 100): ");
 const gridNumber = Math.round(promptNumber);
 
 

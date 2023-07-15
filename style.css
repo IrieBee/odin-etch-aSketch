@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: bisque;
+    background-color: hsl(15, 100%, 90%);
 }
 
 section {
@@ -29,7 +29,13 @@ section {
 }
 
 .button {
-    padding: 5px 10px;
+    padding: 10px 15px;
     border-radius: 5px;
     border-color: hsl(280, 10%, 25%);
+    margin: 30px 60px;
+    background-color: hsl(10, 90%, 82%);
+    color:hsl(282, 10%, 25%);
+    font-size:18px;
+    font-weight: bold;
+    letter-spacing: 2px;
 }
