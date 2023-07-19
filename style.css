@@ -34,8 +34,14 @@ section {
     border-color: hsl(214, 16%, 34%);
     margin: 30px 60px;
     background-color: hsl(222, 8%, 70%);
+    box-shadow: 5px 5px 15px hsl(214, 16%, 34%);
     color: hsl(214, 16%, 20%);
     font-size:18px;
     font-weight: bold;
     letter-spacing: 2px;
+}
+
+.button:hover {
+    background-color: hsl(330, 4%, 81%);
+    box-shadow: 1px 1px 40px hsl(222, 8%, 70%);
 }
