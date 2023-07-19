@@ -17,7 +17,7 @@ for (let i = 0; i < gridNumber **2; i++) {
 const drawing = document.querySelectorAll('.grid');
 drawing.forEach ((box) => {
     box.addEventListener('mouseover', () => {
-        box.style.backgroundColor = 'hsl(280, 10%, 25%)';
+        box.style.backgroundColor = 'hsl(214, 16%, 20%)';
     })
 })
 
@@ -54,7 +54,7 @@ document.querySelector('.button').addEventListener('click', () => {
     const drawing = document.querySelectorAll('.grid');
     drawing.forEach ((box) => {
         box.addEventListener('mouseover', () => {
-            box.style.backgroundColor = 'hsl(280, 10%, 25%)';
+            box.style.backgroundColor = 'hsl(214, 16%, 20%)';
         })
     })
 })

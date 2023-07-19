@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: hsl(15, 100%, 90%);
+    background-color: hsl(209, 18%, 54%);
 }
 
 section {
@@ -17,13 +17,13 @@ section {
 #container {
     display: flex;
     flex-wrap: wrap;
-    background-color: hsl(0, 50%, 95%);
+    background-color: hsl(23, 31%, 89%);
     aspect-ratio: 1 / 1;
 }
 
 .grid {
     border-style: dotted;
-    border-color: hsl(210, 5%, 85%);
+    border-color: hsl(330, 4%, 81%);
     border-width: 1px;
     aspect-ratio: 1 / 1;
 }
@@ -31,10 +31,10 @@ section {
 .button {
     padding: 10px 15px;
     border-radius: 5px;
-    border-color: hsl(280, 10%, 25%);
+    border-color: hsl(214, 16%, 34%);
     margin: 30px 60px;
-    background-color: hsl(10, 90%, 82%);
-    color:hsl(282, 10%, 25%);
+    background-color: hsl(222, 8%, 70%);
+    color: hsl(214, 16%, 20%);
     font-size:18px;
     font-weight: bold;
     letter-spacing: 2px;
