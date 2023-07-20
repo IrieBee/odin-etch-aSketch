@@ -42,6 +42,7 @@ section {
 }
 
 .button:hover {
-    background-color: hsl(330, 4%, 81%);
-    box-shadow: 1px 1px 40px hsl(222, 8%, 70%);
+    color: hsl(330, 4%, 81%);
+    box-shadow: 5px 5px 20px hsl(222, 8%, 70%);
+    border-color: hsl(330, 4%, 81%);
 }
