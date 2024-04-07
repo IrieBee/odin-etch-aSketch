@@ -7,7 +7,7 @@ This is a solution to the Odin project Etch a Sketch.
 
 ### Screenshot
 
-![screenshot](https://github.com/ltsyBitsy/odin-etch-aSketch/blob/main/images/screenshot.jpg)
+![screenshot](https://github.com/IrieBee/odin-etch-aSketch/blob/main/images/screenshot.jpg)
 
 ## Built with
 
@@ -15,18 +15,12 @@ This is a solution to the Odin project Etch a Sketch.
   * CSS
   * Javascript
 
-### What I learned
-
-* 
 
 ## Links
 
-* Solution URL: https://github.com/ltsyBitsy/odin-etch-aSketch
-* Live Site URL: https://ltsybitsy.github.io/odin-etch-aSketch/
+* Solution URL: https://github.com/IrieBee/odin-etch-aSketch
+* Live Site URL: https://IrieBee.github.io/odin-etch-aSketch/
 
-## Useful resources
-
-* 
 
 ## Acknowledgements
 
